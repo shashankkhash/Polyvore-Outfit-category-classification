@@ -121,6 +121,7 @@ def get_dataloader(debug, batch_size, num_workers):
         test_set = polyvore_test(X_test, y_test, transforms['test'])
         dataset_size = {'train': len(y_train), 'test': len(y_test)}
 
+    
     datasets = {'train': train_set, 'test': test_set}
     dataloaders = {x: DataLoader(datasets[x],
                                  shuffle=True if x=='train' else False,
