@@ -9,6 +9,7 @@ Config['meta_file'] = 'polyvore_item_metadata.json'
 Config['checkpoint_path'] = ''
 
 
+
 Config['use_cuda'] = True
 Config['debug'] = False
 Config['num_epochs'] = 20
