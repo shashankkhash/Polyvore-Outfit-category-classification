@@ -18,5 +18,4 @@ To install the complete list of dependencies, run:
 # Running the code:
 Set the parameters in utils.py. The code uses CUDA which needs an Nvidia GPU. If not using a GPU, set use_cuda flag to False in utils.py.
 
-References
-[1] https://github.com/davidsonic/EE599-CV-Project
+    https://github.com/davidsonic/EE599-CV-Project
