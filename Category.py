@@ -31,6 +31,7 @@ def train_model(dataloader, model, criterion, optimizer, device, num_epochs, dat
             else:
                 model.eval()
 
+            
             running_loss = 0.0
             running_corrects = 0
 
