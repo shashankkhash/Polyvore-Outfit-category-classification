@@ -13,7 +13,7 @@ Polyvore Outﬁts is a real-world dataset created based on users’ preferences 
 
 To install the complete list of dependencies, run:
 
-pip install -r requirements.txt
+         pip install -r requirements.txt
 
 # Running the code:
 Set the parameters in utils.py. The code uses CUDA which needs an Nvidia GPU. If not using a GPU, set use_cuda flag to False in utils.py.
